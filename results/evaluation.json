@@ -1,0 +1,27 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "datasets": [
+    "Phishing_Email.csv",
+    "SMSSpamCollection"
+  ],
+  "task": "Suspicious-message classification",
+  "total_messages": 22671,
+  "email_messages": 17514,
+  "sms_messages": 5157,
+  "training_messages": 18136,
+  "test_messages": 4535,
+  "accuracy": 0.9735391400220507,
+  "precision_suspicious": 0.9646892655367232,
+  "recall_suspicious": 0.9512534818941504,
+  "f1_suspicious": 0.9579242636746143,
+  "confusion_matrix": [
+    [
+      3049,
+      50
+    ],
+    [
+      70,
+      1366
+    ]
+  ]
+}

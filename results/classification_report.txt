@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+  legitimate       0.98      0.98      0.98      3099
+  suspicious       0.96      0.95      0.96      1436
+
+    accuracy                           0.97      4535
+   macro avg       0.97      0.97      0.97      4535
+weighted avg       0.97      0.97      0.97      4535
+
+Confusion matrix (rows=actual, columns=predicted):
+[[3049   50]
+ [  70 1366]]

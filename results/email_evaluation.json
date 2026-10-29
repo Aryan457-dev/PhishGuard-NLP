@@ -1,0 +1,55 @@
+{
+  "dataset": "Phishing Email Dataset",
+  "model": "TF-IDF + Logistic Regression",
+  "positive_class": "phishing",
+  "test_size": 0.2,
+  "random_state": 42,
+  "total_messages": 18631,
+  "training_messages": 14904,
+  "test_messages": 3727,
+  "class_counts": {
+    "legitimate": 11322,
+    "phishing": 7309
+  },
+  "accuracy": 0.9664609605580896,
+  "precision": 0.9507754551584626,
+  "recall": 0.9644322845417237,
+  "f1_score": 0.9575551782682513,
+  "confusion_matrix": [
+    [
+      2192,
+      73
+    ],
+    [
+      52,
+      1410
+    ]
+  ],
+  "classification_report": {
+    "legitimate": {
+      "precision": 0.9768270944741533,
+      "recall": 0.9677704194260486,
+      "f1-score": 0.9722776668884453,
+      "support": 2265.0
+    },
+    "phishing": {
+      "precision": 0.9507754551584626,
+      "recall": 0.9644322845417237,
+      "f1-score": 0.9575551782682513,
+      "support": 1462.0
+    },
+    "accuracy": 0.9664609605580896,
+    "macro avg": {
+      "precision": 0.963801274816308,
+      "recall": 0.9661013519838861,
+      "f1-score": 0.9649164225783483,
+      "support": 3727.0
+    },
+    "weighted avg": {
+      "precision": 0.9666077500471236,
+      "recall": 0.9664609605580896,
+      "f1-score": 0.966502437920717,
+      "support": 3727.0
+    }
+  }
+}
